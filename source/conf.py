@@ -32,7 +32,7 @@ html_static_path = ['_static']
 
 def add_bing_meta(app, pagename, templatename, context, doctree):
     context['metatags'] = context.get('metatags', '') + \
-        '<meta name="msvalidate.01" content="FC509CF16E0F367160AF6AF51658C425" />\n'
+        '<meta name="msvalidate.01" content="D145610E5122695AB55319B436B0B952" />\n'
 
 def setup(app):
     app.add_config_value('meta_tags', '', 'html')
